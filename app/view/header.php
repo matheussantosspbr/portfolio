@@ -56,7 +56,7 @@ if ($style == 'pageNotFound') {
     <img src="/www.matheussantosdev.com/app/assets/logo/logo.png" alt="logo" />
     <div class="menu">
       <ul>
-        <li class="menu_inicio"><a href="http://localhost/www.matheussantosdev.com/">Inicio</a></li>
+        <li><a href="http://localhost/www.matheussantosdev.com/">Inicio</a></li>
         <li><a href="http://localhost/www.matheussantosdev.com/portifolio/">Portifólio</a></li>
         <li><a href="http://localhost/www.matheussantosdev.com/certificados/">Certificados</a></li>
         <li><a href="http://localhost/www.matheussantosdev.com/sobre/">Sobre</a></li>

@@ -326,10 +326,6 @@ footer {
     box-shadow: none;
   }
 
-  .menu_inicio {
-    border-bottom: 1px solid var(--cor-primaria) !important;
-  }
-
   .menu ul {
     flex-direction: row;
     justify-content: flex-end;

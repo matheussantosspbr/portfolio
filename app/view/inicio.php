@@ -6,13 +6,6 @@
     </div>
   </section>
   <div class="divider_1"></div>
-  <section id="blog">
-    <div class="contreinner">
-      <h2>Blog</h2>
-      <p>Em Breve</p>
-    </div>
-  </section>
-  <div class="divider_2"></div>
   <section id="portifolio">
     <h2>Portifólio</h2>
     <div class="contreinner">
@@ -45,10 +38,10 @@
           </div>
         </a>
       </div>
-      <a href="portifolio/index.html"><button>Ver Mais</button></a>
+      <a href="http://localhost/www.matheussantosdev.com/portifolio/"><button>Ver Mais</button></a>
     </div>
   </section>
-  <div class="divider_1"></div>
+  <div class="divider_2"></div>
   <section id="sobre">
     <div class="contreinner">
       <div class="foto_minha">
@@ -79,7 +72,7 @@
       </div>
     </div>
   </section>
-  <div class="divider_2"></div>
+  <div class="divider_1"></div>
   <section id="tecnologias">
     <div class="contreinner">
       <div>
@@ -188,7 +181,7 @@
       </div>
     </div>
   </section>
-  <div class="divider_1"></div>
+  <div class="divider_2"></div>
   <section id="tecnologias">
     <div class="contreinner">
       <div>
@@ -337,7 +330,7 @@
       </div>
     </div>
   </section>
-  <div class="divider_2"></div>
+  <div class="divider_1"></div>
   <section id="contato">
     <div class="contreinner">
       <div class="titulo_contato">
