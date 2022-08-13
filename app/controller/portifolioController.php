@@ -6,4 +6,9 @@ class portifolioController extends controller
   {
     $this->carregarTemplate('portifolio');
   }
+
+  public function regra_de_3()
+  {
+    $this->carregarTemplate('regraDe3');
+  }
 }

@@ -34,11 +34,14 @@ $caminho = "/xampp/htdocs/www.matheussantosdev.com/app/assets/style/$arq";
 if (!file_exists($caminho)) {
   $style = 'pageNotFound';
 }
+$script = $style;
 
+$caminhoScript = "/www.matheussantosdev.com/app/assets/script/js/$script.js";
 $caminhoStyle = "/www.matheussantosdev.com/app/assets/style/$style.css";
 
 ?>
 <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
+<script src="<?php echo $caminhoScript; ?>"></script>
 <?php
 
 if ($style == 'pageNotFound') {
@@ -47,6 +50,8 @@ if ($style == 'pageNotFound') {
   $style = 'Início';
 } else if ($style == 'portifolio') {
   $style = 'Portifólio';
+} else if ($style == 'regra_de_3') {
+  $style = 'Regra de 3';
 }
 ?>
 <title><?php echo mb_convert_case($style,  MB_CASE_TITLE); ?></title>
