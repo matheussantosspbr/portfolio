@@ -45,7 +45,7 @@
   <section id="sobre">
     <div class="contreinner">
       <div class="foto_minha">
-        <img src="/www.matheussantosdev.com/app/assets/imgs/fotoMinha.png" alt="" />
+        <img src="/www.matheussantosdev.com/app/assets/imgs/fotoMinha.png" alt="Foto Minha" />
       </div>
       <div class="texto">
         <div>
