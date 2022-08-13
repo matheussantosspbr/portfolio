@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 
-.contreinnerDesign{
+.contreinnerDesign,.contreinnerProgramacao{
   width: 100%;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@
 
 .projeto{
   width: 16rem;
-  height: 17rem;
+  height: 19rem;
   padding: 0.5rem;
   border: 2px dashed var(--body);
   margin: 0.75rem;
@@ -65,4 +65,10 @@
 .link {
   font-size: 16px !important;
   margin: 5px;
+}
+
+.projeto p {
+  color: var(--body);
+  font-size: 1.15em;
+  text-align: center;
 }
