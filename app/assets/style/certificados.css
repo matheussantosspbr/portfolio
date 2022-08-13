@@ -1,0 +1,178 @@
+/* ===== CABEÇALHO ===== */
+
+#cabecalho {
+  height: 10rem;
+}
+
+#cabecalho .contreinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ===== CERTIFICADO ===== */
+
+#certificados .contreinner {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificado {
+  margin: 20px 0;
+  background-color: var(--cor-primaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 4px 4px 16px 2px var(--body);
+}
+
+.img_certificado img {
+  width: 15rem;
+  margin: 10px;
+  box-shadow: 4px 4px 16px 2px var(--body);
+  border-radius: 5px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--letras);
+  text-align: center;
+}
+
+.texto h3,
+.texto h4 {
+  text-shadow: 4px 4px 5px var(--body);
+}
+
+.texto h4 {
+  margin: 10px 0;
+}
+
+
+@media (min-width: 1440px) {
+  .certificado {
+    width: 70% !important;
+  }
+
+  .texto h3 {
+    font-size: 20px;
+  }
+
+  .texto h4 {
+    font-size: 18px;
+  }
+
+  .img_certificado {
+    margin-left: 100px !important;
+  }
+
+  .img_certificado img {
+    width: 20rem !important;
+  }
+
+  .texto {
+    margin-right: 140px !important;
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  #certificados .contreinner {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .certificado {
+    width: 80%;
+  }
+
+  .img_certificado {
+    margin-left: 40px !important;
+  }
+
+  .img_certificado img {
+    width: 18rem !important;
+  }
+
+  .texto {
+    margin-right: 40px !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .img_certificado {
+    margin-left: 20px;
+  }
+
+  .img_certificado img {
+    width: 17rem !important;
+  }
+
+  .texto {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 660px) {
+  .contreinner div h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .certificado {
+    margin: 20px 0;
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img_certificado {
+    width: 50%;
+  }
+
+  .img_certificado img {
+    width: 16rem;
+    margin: 10px;
+    box-shadow: 4px 4px 16px 2px var(--body);
+    border-radius: 5px;
+  }
+
+  .texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--letras);
+    text-align: center;
+  }
+
+  .texto h3,
+  .texto h4 {
+    text-shadow: 4px 4px 5px var(--body);
+  }
+
+  .texto h4 {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 550px) {
+
+  .menu_certificados {
+    border-bottom: 1px solid var(--cor-primaria) !important;
+  }
+}
