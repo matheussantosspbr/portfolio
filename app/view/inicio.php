@@ -26,10 +26,10 @@
         <?php
         }
         ?>
-        <a href="regra_de_3/index.html" target="_blank">
+        <a href="http://localhost/www.matheussantosdev.com/portifolio/regra_de_3/" target="_blank">
           <div class="portifolio">
             <div class="image_portifolio">
-              <img src="/www.matheussantosdev.com/app/assets/imgs/programacao/1.png" alt="" />
+              <img src="/www.matheussantosdev.com/app/assets/imgs/programacao/0.png" alt="" />
             </div>
             <div>
               <p>Regra de 3</p>
@@ -66,7 +66,7 @@
             de 2022.
           </p>
 
-          <a href="http://localhost/www.matheussantosdev.com/portifolio/"><button>Ver Mais</button></a>
+          <a href="http://localhost/www.matheussantosdev.com/sobre/"><button>Ver Mais</button></a>
 
         </div>
       </div>

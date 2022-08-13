@@ -304,13 +304,13 @@
   <section id="portifolio">
     <h2>Portifólio</h2>
     <div class="contreinner"></div>
-    <a href="../#portifolio"><button>Clique Aqui</button></a>
+    <a href="http://localhost/www.matheussantosdev.com/portifolio/"><button>Clique Aqui</button></a>
   </section>
   <div class="divider_1"></div>
   <section id="portifolio">
     <h2>Certificados</h2>
     <div class="contreinner"></div>
-    <a href="../certificados/index.html"><button>Clique Aqui</button></a>
+    <a href="http://localhost/www.matheussantosdev.com/certificados/"><button>Clique Aqui</button></a>
   </section>
   <div class="divider_2"></div>
   <section id="contato">
