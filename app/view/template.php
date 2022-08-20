@@ -15,12 +15,13 @@ $caminhoStyle = __DIR__ . '/../../assets/base/style.css';
   <meta name="msapplication-navbutton-color" content="#0b0f13" />
   <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
   <link rel="stylesheet" href=<?php echo $caminhoStyle; ?>>
-  <?php
-  $this->carregarHeader();
-  $this->carregarViewNoTemplate($nomeView, $dadosModel);
-  $this->carregarFooter();
-  ?>
-  <script src="../assets/base/script.js"></script>
-  </body>
+
+</head>
+<?php
+$this->carregarHeader();
+$this->carregarViewNoTemplate($nomeView, $dadosModel);
+$this->carregarFooter();
+?>
+<script src="../assets/base/script.js"></script>
 
 </html>

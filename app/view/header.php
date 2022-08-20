@@ -38,21 +38,23 @@ $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 ?>
-<link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
-<script src="<?php echo $caminhoScript; ?>"></script>
-<?php
 
-if ($style == 'pageNotFound') {
-  $style = 'Page Not Found';
-} else if ($style == 'inicio') {
-  $style = 'Início';
-} else if ($style == 'portifolio') {
-  $style = 'Portifólio';
-} else if ($style == 'regra_de_3') {
-  $style = 'Regra de 3';
-}
-?>
-<title><?php echo mb_convert_case($style,  MB_CASE_TITLE); ?></title>
+<head>
+  <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
+  <script src="<?php echo $caminhoScript; ?>"></script>
+  <?php
+
+  if ($style == 'pageNotFound') {
+    $style = 'Page Not Found';
+  } else if ($style == 'inicio') {
+    $style = 'Início';
+  } else if ($style == 'portifolio') {
+    $style = 'Portifólio';
+  } else if ($style == 'regra_de_3') {
+    $style = 'Regra de 3';
+  }
+  ?>
+  <title><?php echo mb_convert_case($style,  MB_CASE_TITLE); ?></title>
 </head>
 <header id="header">
   <nav class="contreinner">
