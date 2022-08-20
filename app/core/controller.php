@@ -18,7 +18,7 @@ class controller
   public function carregarViewNoTemplate($nomeView, $dadosModel = array())
   {
     extract($dadosModel);
-    require  __DIR__ . "/../view/$nomeView.php";
+    require  __DIR__ . '/../view/' . $nomeView . '.php';
   }
 
   public function carregarFooter()
