@@ -37,8 +37,8 @@ if (!file_exists(__DIR__ . $caminho)) {
 }
 $script = $style;
 
-$caminhoScript = '../assets/script/js/' . $script . '.js';
-$caminhoStyle = '../assets/style/' . $style . '.css';
+$caminhoScript = __DIR__ . '../assets/script/js/' . $script . '.js';
+$caminhoStyle = __DIR__ . '../assets/style/' . $style . '.css';
 
 ?>
 <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
