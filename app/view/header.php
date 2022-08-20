@@ -40,8 +40,8 @@ $caminhoScript = "../assets/script/js/$script.js";
 $caminhoStyle = "../assets/style/$style.css";
 
 ?>
-<link rel="stylesheet" href="<?php echo __DIR__ . $caminhoStyle; ?>">
-<script src="<?php echo __DIR__ . $caminhoScript; ?>"></script>
+<link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
+<script src="<?php echo $caminhoScript; ?>"></script>
 <?php
 
 if ($style == 'pageNotFound') {
@@ -58,7 +58,7 @@ if ($style == 'pageNotFound') {
 </head>
 <header id="header">
   <nav class="contreinner">
-    <img src="/www.matheussantosdev.com/app/assets/logo/logo.png" alt="logo" />
+    <img src="../assets/logo/logo.png" alt="logo" />
     <div class="menu">
       <ul>
         <li><a href="http://localhost/www.matheussantosdev.com/">Inicio</a></li>
