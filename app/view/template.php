@@ -14,9 +14,9 @@
   require __DIR__ . '/../../autoload.php';
 
   $c = new $controller;
-  $this->carregarHeader();
-  $this->carregarViewNoTemplate($nomeView, $dadosModel);
-  $this->carregarFooter();
+  $c->carregarHeader();
+  $c->carregarViewNoTemplate($nomeView, $dadosModel);
+  $c->carregarFooter();
   ?>
   <script src="../assets/base/script.js"></script>
   </body>
