@@ -11,6 +11,9 @@
   <link rel="shortcut icon" href=<?php echo __DIR__ . "/../assets/logo/logo.png" ?> />
   <link rel="stylesheet" href=<?php echo __DIR__ . "/../assets/base/style.css" ?>>
   <?php
+  require __DIR__ . '/../../autoload.php';
+
+  $c = new $controller;
   $this->carregarHeader();
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
   $this->carregarFooter();
