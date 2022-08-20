@@ -30,7 +30,7 @@ if ($style == 'index') {
 }
 
 $arq = $style . ".css";
-$caminho = "../assets/style/$arq";
+$caminho = "/../assets/style/$arq";
 
 if (!file_exists(__DIR__ . $caminho)) {
   $style = 'pageNotFound';
