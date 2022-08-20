@@ -1,3 +1,7 @@
+<?php
+$caminhoLogo = __DIR__;
+// "../assets/logo/logo.png"
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,7 +12,7 @@
   <meta name="theme-color" content="#0b0f13" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#0b0f13" />
   <meta name="msapplication-navbutton-color" content="#0b0f13" />
-  <link rel="shortcut icon" href="../assets/logo/logo.png" />
+  <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
   <link rel="stylesheet" href="../assets/base/style.css">
   <?php
   $this->carregarHeader();
