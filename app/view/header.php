@@ -3,8 +3,6 @@ $url = $_SERVER["REQUEST_URI"];
 print_r($_SERVER["REQUEST_URI"]);
 
 $url = explode('/', $url);
-array_shift($url);
-array_shift($url);
 
 if (!empty($url[0])) {
 
