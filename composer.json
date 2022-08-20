@@ -1,5 +1,8 @@
 {
-    "require": {
-        "twig/twig": "^3.0"
+    "name": "matheus/site",
+    "autoload": {
+      "psr-4": {
+        "app\\": "app/"
+      }
     }
-}
+  }
