@@ -29,15 +29,15 @@ if ($style == 'index') {
 }
 
 $arq = $style . ".css";
-$caminho = "/xampp/htdocs/www.matheussantosdev.com/app/assets/style/$arq";
+$caminho = "../assets/style/$arq";
 
 if (!file_exists($caminho)) {
   $style = 'pageNotFound';
 }
 $script = $style;
 
-$caminhoScript = "/www.matheussantosdev.com/app/assets/script/js/$script.js";
-$caminhoStyle = "/www.matheussantosdev.com/app/assets/style/$style.css";
+$caminhoScript = "../assets/script/js/$script.js";
+$caminhoStyle = "../assets/style/$style.css";
 
 ?>
 <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
