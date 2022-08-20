@@ -37,7 +37,7 @@ $script = $style;
 
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
-
+$caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 ?>
 <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
 <script src="<?php echo $caminhoScript; ?>"></script>
@@ -57,7 +57,7 @@ if ($style == 'pageNotFound') {
 </head>
 <header id="header">
   <nav class="contreinner">
-    <img src=<?php echo __DIR__ . '/../../assets/logo/logo.png' ?> alt="logo" />
+    <img src=<?php echo $caminhoLogo; ?> alt="logo" />
     <div class="menu">
       <ul>
         <li><a href="http://localhost/www.matheussantosdev.com/">Inicio</a></li>
