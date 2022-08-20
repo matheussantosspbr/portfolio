@@ -57,7 +57,7 @@ if ($style == 'pageNotFound') {
 </head>
 <header id="header">
   <nav class="contreinner">
-    <img src="../assets/logo/logo.png" alt="logo" />
+    <img src=<?php echo __DIR__ . '/../assets/logo/logo.png' ?> alt="logo" />
     <div class="menu">
       <ul>
         <li><a href="http://localhost/www.matheussantosdev.com/">Inicio</a></li>
