@@ -40,8 +40,8 @@ $caminhoScript = "../assets/script/js/$script.js";
 $caminhoStyle = "../assets/style/$style.css";
 
 ?>
-<link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
-<script src="<?php echo $caminhoScript; ?>"></script>
+<link rel="stylesheet" href="<?php echo __DIR__ . $caminhoStyle; ?>">
+<script src="<?php echo __DIR__ . $caminhoScript; ?>"></script>
 <?php
 
 if ($style == 'pageNotFound') {
