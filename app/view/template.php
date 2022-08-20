@@ -16,12 +16,12 @@ $caminhoStyle = __DIR__ . '/../../assets/base/style.css';
   <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
   <link rel="stylesheet" href=<?php echo $caminhoStyle; ?>>
 
-</head>
-<?php
-$this->carregarHeader();
-$this->carregarViewNoTemplate($nomeView, $dadosModel);
-$this->carregarFooter();
-?>
-<script src="../assets/base/script.js"></script>
+  <!-- </head> -->
+  <?php
+  $this->carregarHeader();
+  $this->carregarViewNoTemplate($nomeView, $dadosModel);
+  $this->carregarFooter();
+  ?>
+  <script src="../assets/base/script.js"></script>
 
 </html>
