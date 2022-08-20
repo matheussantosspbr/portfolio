@@ -1,8 +1,8 @@
 {
-    "name": "matheus/site",
-    "autoload": {
-      "psr-4": {
-        "app\\": "app/"
-      }
+  "name": "matheussantosdev/site",
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
     }
   }
+}

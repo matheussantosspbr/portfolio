@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'matheus/site',
+        'name' => 'matheussantosdev/site',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b27c0ac3bc21747268bd786df85b2fbfe70f4790',
+        'reference' => 'ba5a2be1c8e48c4189290dfb4c03a197fc85a575',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'matheus/site' => array(
+        'matheussantosdev/site' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b27c0ac3bc21747268bd786df85b2fbfe70f4790',
+            'reference' => 'ba5a2be1c8e48c4189290dfb4c03a197fc85a575',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
