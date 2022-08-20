@@ -1,5 +1,5 @@
 <?php
-$caminhoLogo = __DIR__ . '/assets/logo/logo.png';
+$caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 // 
 ?>
 <!DOCTYPE html>
