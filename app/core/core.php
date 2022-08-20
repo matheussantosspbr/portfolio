@@ -38,9 +38,9 @@ class core
     }
 
     $arq = $controller . ".php";
-    $caminho = "/xampp/htdocs/www.matheussantosdev.com/app/controller/$arq";
+    $caminho = "/../controller/$arq";
 
-    if (!file_exists($caminho) || !method_exists($controller, $metodo)) {
+    if (!file_exists(__DIR__ . $caminho) || !method_exists($controller, $metodo)) {
       $controller = 'pageNotFoundController';
       $metodo = 'index';
       $parametros = '';
