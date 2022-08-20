@@ -7,22 +7,22 @@ class controller
   public function carregarTemplate($nomeView, $dadosModel = array())
   {
     $this->dados = $dadosModel;
-    require '/xampp/htdocs/www.matheussantosdev.com/app/view/template.php';
+    require __DIR__ . '/../view/template.php';
   }
 
   public function carregarHeader()
   {
-    require '/xampp/htdocs/www.matheussantosdev.com/app/view/header.php';
+    require __DIR__ . '/../view/header.php';
   }
 
   public function carregarViewNoTemplate($nomeView, $dadosModel = array())
   {
     extract($dadosModel);
-    require "/xampp/htdocs/www.matheussantosdev.com/app/view/$nomeView.php";
+    require  __DIR__ . "/../view/$nomeView.php";
   }
 
   public function carregarFooter()
   {
-    require '/xampp/htdocs/www.matheussantosdev.com/app/view/footer.php';
+    require  __DIR__ . '/../view/footer.php';
   }
 }
