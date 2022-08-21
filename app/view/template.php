@@ -38,6 +38,7 @@ if (!file_exists(__DIR__ . $caminho)) {
 }
 
 $script = $style;
+$titulo = $style;
 
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
@@ -57,21 +58,21 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
   <script src="<?php echo $caminhoScript; ?>"></script>
   <?php
-  if ($style == 'pageNotFound') {
-    $style = 'Page Not Found';
-  } else if ($style == 'inicio') {
-    $style = 'Início';
-  } else if ($style == 'portifolio') {
-    $style = 'Portfólio';
-  } else if ($style == 'regra_de_3') {
-    $style = 'Regra de 3';
-  } else if ($style == 'sobre') {
-    $style = 'Sobre';
-  } else if ($style == 'certificados') {
-    $style = 'Certificados';
+  if ($titulo == 'pageNotFound') {
+    $titulo = 'Page Not Found';
+  } else if ($titulo == 'inicio') {
+    $titulo = 'Início';
+  } else if ($titulo == 'portifolio') {
+    $titulo = 'Portfólio';
+  } else if ($titulo == 'regra_de_3') {
+    $titulo = 'Regra de 3';
+  } else if ($titulo == 'sobre') {
+    $titulo = 'Sobre';
+  } else if ($titulo == 'certificados') {
+    $titulo = 'Certificados';
   }
   ?>
-  <title><?php echo $style; ?></title>
+  <title><?php echo $titulo; ?></title>
 </head>
 
 <body>
