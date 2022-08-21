@@ -1,7 +1,46 @@
 <?php
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
-$caminhoStyle = __DIR__ . '/../../assets/base/style.css';
-// 
+$caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
+$caminhoScriptBase = __DIR__ . '/../../assets/script/js/style.css';
+
+$url = $_SERVER["REQUEST_URI"];
+
+$url = explode('/', $url);
+
+if (!empty($url[0])) {
+
+  $style = $url[0];
+  $styleRes = $url[0];
+  array_shift($url);
+
+  if (!empty($url[0])) {
+    $style = $url[0];
+
+    if (!empty($url[0])) {
+      $style = $url[0];
+    }
+
+    array_shift($url);
+  }
+} else {
+  $style = 'inicio';
+}
+
+if ($style == 'index') {
+  $style = $styleRes;
+}
+
+$arq = $style . ".css";
+$caminho = "/../assets/style/$arq";
+
+if (!file_exists(__DIR__ . $caminho)) {
+  $style = 'pageNotFound';
+}
+
+$script = $style;
+
+$caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
+$caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,70 +53,31 @@ $caminhoStyle = __DIR__ . '/../../assets/base/style.css';
   <meta name="apple-mobile-web-app-status-bar-style" content="#0b0f13" />
   <meta name="msapplication-navbutton-color" content="#0b0f13" />
   <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
-  <link rel="stylesheet" href=<?php echo $caminhoStyle; ?>>
+  <link rel="stylesheet" href=<?php echo $caminhoStyleBase; ?>>
+  <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
+  <script src="<?php echo $caminhoScript; ?>"></script>
   <?php
-  $url = $_SERVER["REQUEST_URI"];
-
-  $url = explode('/', $url);
-
-  if (!empty($url[0])) {
-
-    $style = $url[0];
-    $styleRes = $url[0];
-    array_shift($url);
-
-    if (!empty($url[0])) {
-      $style = $url[0];
-
-      if (!empty($url[0])) {
-        $style = $url[0];
-      }
-
-      array_shift($url);
-    }
-  } else {
-    $style = 'inicio';
+  if ($style == 'pageNotFound') {
+    $style = 'Page Not Found';
+  } else if ($style == 'inicio') {
+    $style = 'Início';
+  } else if ($style == 'portifolio') {
+    $style = 'Portifólio';
+  } else if ($style == 'regra_de_3') {
+    $style = 'Regra de 3';
   }
-
-  if ($style == 'index') {
-    $style = $styleRes;
-  }
-
-  $arq = $style . ".css";
-  $caminho = "/../assets/style/$arq";
-
-  if (!file_exists(__DIR__ . $caminho)) {
-    $style = 'pageNotFound';
-  }
-  $script = $style;
-
-  $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
-  $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
-  $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
   ?>
+  <title><?php echo mb_convert_case($style,  MB_CASE_TITLE); ?></title>
+</head>
 
-  <head>
-    <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
-    <script src="<?php echo $caminhoScript; ?>"></script>
-    <?php
+<body>
 
-    if ($style == 'pageNotFound') {
-      $style = 'Page Not Found';
-    } else if ($style == 'inicio') {
-      $style = 'Início';
-    } else if ($style == 'portifolio') {
-      $style = 'Portifólio';
-    } else if ($style == 'regra_de_3') {
-      $style = 'Regra de 3';
-    }
-    ?>
-    <title><?php echo mb_convert_case($style,  MB_CASE_TITLE); ?></title>
-  </head>
   <?php
   $this->carregarHeader();
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
   $this->carregarFooter();
   ?>
-  <script src="../assets/base/script.js"></script>
+</body>
+<script src=<?php echo $caminhoScriptBase ?>></script>
 
 </html>

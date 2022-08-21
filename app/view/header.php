@@ -1,3 +1,6 @@
+<?php
+$caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
+?>
 <header id="header">
   <nav class="contreinner">
     <img src=<?php echo $caminhoLogo; ?> alt="logo" />
