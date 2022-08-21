@@ -66,11 +66,14 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   } else if ($style == 'regra_de_3') {
     $style = 'Regra de 3';
   }
+
+  $titulo = mb_convert_case($style,  MB_CASE_TITLE);
   ?>
-  <title>TESTE></title>
+  <title><?php echo $titulo; ?></title>
 </head>
 
 <body>
+
   <?php
   $this->carregarHeader();
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
