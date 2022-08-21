@@ -62,9 +62,13 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   } else if ($style == 'inicio') {
     $style = 'Início';
   } else if ($style == 'portifolio') {
-    $style = 'Portifólio';
+    $style = 'Portfólio';
   } else if ($style == 'regra_de_3') {
     $style = 'Regra de 3';
+  } else if ($style == 'sobre') {
+    $style = 'Sobre';
+  } else if ($style == 'certificados') {
+    $style = 'Certificados';
   }
   ?>
   <title><?php echo $style; ?></title>
