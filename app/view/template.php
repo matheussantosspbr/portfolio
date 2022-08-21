@@ -57,22 +57,7 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   <link rel="stylesheet" href=<?php echo $caminhoStyleBase; ?>>
   <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
   <script src="<?php echo $caminhoScript; ?>"></script>
-  <?php
-  if ($titulo == 'pageNotFound') {
-    $titulo = 'Page Not Found';
-  } else if ($titulo == 'inicio') {
-    $titulo = 'Início';
-  } else if ($titulo == 'portifolio') {
-    $titulo = 'Portfólio';
-  } else if ($titulo == 'regra_de_3') {
-    $titulo = 'Regra de 3';
-  } else if ($titulo == 'sobre') {
-    $titulo = 'Sobre';
-  } else if ($titulo == 'certificados') {
-    $titulo = 'Certificados';
-  }
-  ?>
-  <title><?php echo $titulo; ?></title>
+  <title></title>
 </head>
 
 <body>
