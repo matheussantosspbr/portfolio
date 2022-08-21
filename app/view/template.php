@@ -66,8 +66,6 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   } else if ($style == 'regra_de_3') {
     $style = 'Regra de 3';
   }
-
-  $tituloHeader = mb_convert_case($style,  MB_CASE_TITLE);
   ?>
   <title>Matheus Santos</title>
 </head>
