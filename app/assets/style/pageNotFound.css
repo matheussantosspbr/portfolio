@@ -1,4 +1,5 @@
-#pageNotFound{
+#pageNotFound,
+main {
   width: 100%;
   height: 70vh;
   display: flex;
@@ -6,7 +7,7 @@
   justify-content: center;
 }
 
-#pageNotFoundSvg{
+#pageNotFoundSvg {
   width: 100%;
   margin: 2rem 0;
 }
