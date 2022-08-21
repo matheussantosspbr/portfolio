@@ -69,7 +69,7 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
 
   $tituloHeader = mb_convert_case($style,  MB_CASE_TITLE);
   ?>
-  <title><?php echo $tituloHeader; ?></title>
+  <title>Matheus Santos</title>
 </head>
 
 <body>
