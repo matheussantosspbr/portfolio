@@ -67,7 +67,7 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
     $style = 'Regra de 3';
   }
   ?>
-  <title><?php echo mb_convert_case($style,  MB_CASE_TITLE); ?></title>
+  <title><?php print_r(mb_convert_case($style,  MB_CASE_TITLE)); ?></title>
 </head>
 
 <body>
