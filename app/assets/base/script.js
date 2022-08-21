@@ -9,3 +9,5 @@ open.addEventListener('click', function () {
 close.addEventListener('click', function () {
   document.querySelector('nav').classList.remove('show')
 })
+
+console.log(window.location['search'])
