@@ -10,4 +10,10 @@ close.addEventListener('click', function () {
   document.querySelector('nav').classList.remove('show')
 })
 
-console.log(window.location['search'])
+let titulo = window.location['pathname'].split('/')
+if(titulo[1] == ''){
+  document.title = 'Matheus Santos - Início'
+}else{
+  document.title = titulo[1]
+}
+console.log(titulo)
