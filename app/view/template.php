@@ -69,7 +69,7 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
 
   $titulo = mb_convert_case($style,  MB_CASE_TITLE);
   ?>
-  <title><?php echo $titulo; ?></title>
+  <title><?php echo "$titulo"; ?></title>
 </head>
 
 <body>
