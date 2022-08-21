@@ -1,4 +1,3 @@
-
 /* ===== CABEÇALHO ===== */
 
 #cabecalho {
@@ -19,6 +18,7 @@
 #cabecalho h1 {
   opacity: 1;
 }
+
 /* ===== BLOG ===== */
 
 #blog {
@@ -114,7 +114,7 @@
   color: var(--letras);
   border-radius: 50px;
   cursor: pointer;
-  margin-top: 25px ;
+  margin-top: 25px;
   transition: background 0.2s;
 }
 
@@ -122,9 +122,10 @@
   background: var(--body);
 }
 
-#portifolio button a{
+#portifolio button a {
   color: var(--letras);
 }
+
 /* ===== SOBRE ===== */
 
 #sobre {
@@ -176,7 +177,7 @@
   color: var(--letras);
   border-radius: 50px;
   cursor: pointer;
-  margin-top: 25px ;
+  margin-top: 25px;
   transition: background 0.2s;
 }
 
@@ -184,14 +185,14 @@
   background: var(--cor-primaria);
 }
 
-#sobre button a{
+#sobre button a {
   color: var(--letras);
 }
 
 
 /* ===== TECNOLOGIAS ===== */
 
-#tecnologias{
+#tecnologias {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -199,7 +200,7 @@
   justify-content: center;
 }
 
-#tecnologias .contreinner{
+#tecnologias .contreinner {
   width: 100%;
   display: flex;
   align-items: center;
@@ -208,7 +209,7 @@
   padding: 1rem 0;
 }
 
-.contreinnerCards{
+.contreinnerCards {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -218,37 +219,42 @@
   flex-wrap: wrap;
 }
 
-.html, .html .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*50) / 100);
+.html,
+.html .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*50) / 100);
   box-shadow: 0 0 10px 6px #ff6200;
   stroke: #ff6200;
 }
 
-.css, .css .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*40) / 100);
+.css,
+.css .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*40) / 100);
   box-shadow: 0 0 10px 6px #0073ff;
   stroke: #0073ff;
 }
-  
-.js, .js .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*10) / 100);
+
+.js,
+.js .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*10) / 100);
   box-shadow: 0 0 10px 6px #F7DF1E;
   stroke: #F7DF1E;
 }
 
-.php, .php .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*60) / 100);
+.php,
+.php .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*60) / 100);
   box-shadow: 0 0 10px 6px #6e81b6;
   stroke: #6e81b6;
 }
 
-.postgresql, .postgresql .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*80) / 100);
+.postgresql,
+.postgresql .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*80) / 100);
   box-shadow: 0 0 10px 6px #336791;
   stroke: #336791;
 }
 
-.card{
+.card {
   height: 14rem;
   width: 13rem;
   display: flex;
@@ -259,16 +265,17 @@
   margin: 1rem 2rem;
 }
 
-.card > p{
+.card>p {
   height: 15%;
 }
-.subCard{
+
+.subCard {
   height: 85%;
   width: 100%;
   position: static;
 }
 
-.subCard > p{
+.subCard>p {
   width: 9.3rem;
   height: auto;
   left: 40%;
@@ -277,14 +284,15 @@
 }
 
 
-.circulo,.iconLanguage{
+.circulo,
+.iconLanguage {
   width: 100%;
   height: 50%;
 }
 
 
 
-.circulo > svg{
+.circulo>svg {
   width: 9.3rem;
   height: auto;
   left: 13%;
@@ -292,7 +300,7 @@
   top: 30%;
 }
 
-.iconLanguage > svg{
+.iconLanguage>svg {
   width: 4rem;
   height: auto;
   left: 33%;
@@ -301,54 +309,60 @@
 }
 
 
-.circulo > svg > circle{
+.circulo>svg>circle {
   width: 13rem;
   height: 13rem;
   fill: none;
   stroke: black;
   stroke-width: 5;
-  transform: translate(5px,5px);
-  stroke-dasharray:440 ;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
   stroke-dashoffset: 440;
 }
-.circulo > circle:nth-child(1){
 
-  stroke-dashoffset:440 ;
+.circulo>circle:nth-child(1) {
+
+  stroke-dashoffset: 440;
   stroke: none;
 }
 
-.circulo > svg > circle:nth-child(2){
+.circulo>svg>circle:nth-child(2) {
   transition: stroke-dashoffset 0.8s;
-} 
+}
 
 /* =====  FERRAMENTAS ===== */
 
-.photoshop, .photoshop .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*100) / 100);
+.photoshop,
+.photoshop .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*100) / 100);
   box-shadow: 0 0 10px 6px #00C8FF;
   stroke: #00C8FF;
 }
 
-.vscode, .vscode .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*100) / 100);
+.vscode,
+.vscode .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*100) / 100);
   box-shadow: 0 0 10px 6px #0065A9;
   stroke: #0065A9;
 }
 
-.github, .github .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*100) / 100);
+.github,
+.github .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*100) / 100);
   box-shadow: 0 0 10px 6px #fff;
   stroke: #fff;
 }
 
-.photoshop, .photoshop .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*100) / 100);
+.photoshop,
+.photoshop .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*100) / 100);
   box-shadow: 0 0 10px 6px #00C8FF;
   stroke: #00C8FF;
 }
 
-.git, .git .subCard .circulo > svg > circle:nth-child(2){
-  stroke-dashoffset:calc(440 - (440*30) / 100);
+.git,
+.git .subCard .circulo>svg>circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*60) / 100);
   box-shadow: 0 0 10px 6px #F05133;
   stroke: #F05133;
 }
@@ -509,7 +523,7 @@ form button:hover {
   }
 
 
-  .texto div{
+  .texto div {
     align-items: flex-start !important;
   }
 }
@@ -566,16 +580,16 @@ form button:hover {
     border-radius: 5px;
   }
 
-  
+
 }
 
-@media (min-width: 300px){
-  .foto_minha{
+@media (min-width: 300px) {
+  .foto_minha {
     margin-bottom: 0;
     margin-top: 3rem;
   }
 
-  .texto div{
+  .texto div {
     justify-content: center;
     align-items: center;
   }
