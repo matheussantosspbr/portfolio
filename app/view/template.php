@@ -61,7 +61,6 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
 </head>
 
 <body>
-
   <?php
   $this->carregarHeader();
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
