@@ -8,7 +8,7 @@
   <section id="sobre">
     <div class="contreinner">
       <div class="foto_minha">
-        <img src="/www.matheussantosdev.com/app/assets/imgs/fotoMinha.png" alt="Foto Minha" />
+        <img src="/app/assets/imgs/fotoMinha.png" alt="Foto Minha" />
       </div>
       <div class="texto">
         <div>
@@ -304,13 +304,13 @@
   <section id="portifolio">
     <h2>Portifólio</h2>
     <div class="contreinner"></div>
-    <a href="http://localhost/www.matheussantosdev.com/portifolio/"><button>Clique Aqui</button></a>
+    <a href="https://matheussantos.herokuapp.com/portfolio/"><button>Clique Aqui</button></a>
   </section>
   <div class="divider_1"></div>
   <section id="portifolio">
     <h2>Certificados</h2>
     <div class="contreinner"></div>
-    <a href="http://localhost/www.matheussantosdev.com/certificados/"><button>Clique Aqui</button></a>
+    <a href="https://matheussantos.herokuapp.com/certificados/"><button>Clique Aqui</button></a>
   </section>
   <div class="divider_2"></div>
   <section id="contato">

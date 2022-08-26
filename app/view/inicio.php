@@ -26,7 +26,7 @@
         <?php
         }
         ?>
-        <a href="https://matheussantos.herokuapp.com/portifolio/regra_de_3/" target="_blank">
+        <a href="https://matheussantos.herokuapp.com/portfolio/regra_de_3/" target="_blank">
           <div class="portifolio">
             <div class="image_portifolio">
               <img src="/app/assets/imgs/programacao/0.png" alt="" />
@@ -38,7 +38,7 @@
           </div>
         </a>
       </div>
-      <a href="https://matheussantos.herokuapp.com/portifolio/"><button>Ver Mais</button></a>
+      <a href="https://matheussantos.herokuapp.com/portfolio/"><button>Ver Mais</button></a>
     </div>
   </section>
   <div class="divider_2"></div>

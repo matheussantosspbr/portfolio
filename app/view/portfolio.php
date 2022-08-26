@@ -23,7 +23,7 @@
         <?php
         $titulosProgramacao = ['Regra de 3'];
         for ($i = 0; $i < 1; $i++) {
-        ?><a href="https://matheussantos.herokuapp.com/portifolio/regra_de_3/">
+        ?><a href="https://matheussantos.herokuapp.com/portfolio/regra_de_3/">
             <div class="projeto">
               <figure>
                 <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
