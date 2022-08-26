@@ -26,10 +26,10 @@
         <?php
         }
         ?>
-        <a href="http://localhost/www.matheussantosdev.com/portifolio/regra_de_3/" target="_blank">
+        <a href="https://matheussantos.herokuapp.com/portifolio/regra_de_3/" target="_blank">
           <div class="portifolio">
             <div class="image_portifolio">
-              <img src="/www.matheussantosdev.com/app/assets/imgs/programacao/0.png" alt="" />
+              <img src="/app/assets/imgs/programacao/0.png" alt="" />
             </div>
             <div>
               <p>Regra de 3</p>
@@ -38,14 +38,14 @@
           </div>
         </a>
       </div>
-      <a href="http://localhost/www.matheussantosdev.com/portifolio/"><button>Ver Mais</button></a>
+      <a href="https://matheussantos.herokuapp.com/portifolio/"><button>Ver Mais</button></a>
     </div>
   </section>
   <div class="divider_2"></div>
   <section id="sobre">
     <div class="contreinner">
       <div class="foto_minha">
-        <img src="/www.matheussantosdev.com/app/assets/imgs/fotoMinha.png" alt="Foto Minha" />
+        <img src="/app/assets/imgs/fotoMinha.png" alt="Foto Minha" />
       </div>
       <div class="texto">
         <div>
@@ -66,7 +66,7 @@
             de 2022.
           </p>
 
-          <a href="http://localhost/www.matheussantosdev.com/sobre/"><button>Ver Mais</button></a>
+          <a href="https://matheussantos.herokuapp.com/sobre/"><button>Ver Mais</button></a>
 
         </div>
       </div>
