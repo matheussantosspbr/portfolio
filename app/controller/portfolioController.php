@@ -1,10 +1,10 @@
 <?php
-class portifolioController extends controller
+class portfolioController extends controller
 {
 
   public function index()
   {
-    $this->carregarTemplate('portifolio');
+    $this->carregarTemplate('portfolio');
   }
 
   public function regra_de_3()
