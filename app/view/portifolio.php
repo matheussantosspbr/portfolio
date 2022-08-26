@@ -10,7 +10,7 @@
         ?>
           <div class="projeto">
             <figure>
-              <img src="/www.matheussantosdev.com/app/assets/imgs/designs/design_<?php echo $i; ?>.jpg" alt="<?php echo $titulosDesign[$i]; ?>" />
+              <img src="/app/assets/imgs/designs/design_<?php echo $i; ?>.jpg" alt="<?php echo $titulosDesign[$i]; ?>" />
             </figure>
             <p><?php echo $titulosDesign[$i]; ?></p>
           </div>
@@ -23,10 +23,10 @@
         <?php
         $titulosProgramacao = ['Regra de 3'];
         for ($i = 0; $i < 1; $i++) {
-        ?><a href="http://localhost/www.matheussantosdev.com/portifolio/regra_de_3/">
+        ?><a href="https://matheussantos.herokuapp.com/portifolio/regra_de_3/">
             <div class="projeto">
               <figure>
-                <img src="/www.matheussantosdev.com/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
+                <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
               </figure>
               <p><?php echo $titulosProgramacao[$i]; ?></p>
               <p style="font-size:1rem; margin-top:5px;">Clique Aqui !</p>

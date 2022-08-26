@@ -56,7 +56,6 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
   <link rel="stylesheet" href=<?php echo $caminhoStyleBase; ?>>
   <link rel="stylesheet" href="<?php echo $caminhoStyle; ?>">
-  <script src="<?php echo $caminhoScript; ?>"></script>
   <title></title>
 </head>
 
@@ -66,7 +65,8 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
   $this->carregarFooter();
   ?>
+  <script src=<?php echo $caminhoScript; ?>></script>
+  <script src=<?php echo $caminhoScriptBase ?>></script>
 </body>
-<script src=<?php echo $caminhoScriptBase ?>></script>
 
 </html>

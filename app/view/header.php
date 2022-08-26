@@ -7,7 +7,7 @@ $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
     <div class="menu">
       <ul>
         <li><a href="https://matheussantos.herokuapp.com/">Inicio</a></li>
-        <li><a href="https://matheussantos.herokuapp.com/portifolio/">Portifólio</a></li>
+        <li><a href="https://matheussantos.herokuapp.com/portifolio/">Portfólio</a></li>
         <li><a href="https://matheussantos.herokuapp.com/certificados/">Certificados</a></li>
         <li><a href="https://matheussantos.herokuapp.com/sobre/">Sobre</a></li>
       </ul>
