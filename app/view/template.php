@@ -12,23 +12,28 @@ if (!empty($url[0])) {
   $style = $url[0];
   $styleRes = $url[0];
   array_shift($url);
+  echo $style;
 
   if (!empty($url[0])) {
     $style = $url[0];
 
     if (!empty($url[0])) {
       $style = $url[0];
+      echo $style;
     }
 
     array_shift($url);
+    echo $style;
   }
 } else {
   $style = 'inicio';
 }
 
+echo $style;
 if ($style == 'index') {
   $style = $styleRes;
 }
+echo $style;
 
 $arq = $style . ".css";
 $caminho = "/../assets/style/$arq";
@@ -36,7 +41,7 @@ $caminho = "/../assets/style/$arq";
 if (!file_exists(__DIR__ . $caminho)) {
   $style = 'pageNotFound';
 }
-
+echo $style;
 $script = $style;
 $titulo = $style;
 
