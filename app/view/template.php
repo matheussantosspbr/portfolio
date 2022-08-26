@@ -28,7 +28,9 @@ if (!empty($url[0])) {
 } else {
   $style = 'inicio';
 }
-
+echo "<br>";
+print_r($url);
+echo "<br>";
 echo $style;
 if ($style == 'index') {
   $style = $styleRes;
