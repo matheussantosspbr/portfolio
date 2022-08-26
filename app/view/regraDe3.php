@@ -10,7 +10,7 @@
         ?>
           <div class="images">
             <label for="">Opção <?php echo $i ?></label>
-            <img src="/www.matheussantosdev.com/app/assets/imgs/regrade3/<?php echo $i ?>.png" />
+            <img src="/app/assets/imgs/regrade3/<?php echo $i ?>.png" />
           </div>
         <?php
         }
