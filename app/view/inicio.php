@@ -12,32 +12,39 @@
       <div class="contreinner_portifolio">
 
         <?php
-        $titulosPortifolio = ['Design para o Dia das Mães', 'Design feito de Estudo', 'Design para Hamburgueria'];
-        for ($i = 0; $i < 3; $i++) {
+        $titulosDesign = ['Design para o Dia das Mães', 'Design feito de Estudo', 'Design para Hamburgueria'];
+        for ($i = 0; $i < count($titulosDesign); $i++) {
         ?>
           <div class="portifolio">
             <div class="image_portifolio">
-              <img src="/app/assets/imgs/designs/design_<?php echo $i; ?>.jpg" alt="<?php echo $titulosPortifolio[$i]; ?>" />
+              <img src="/app/assets/imgs/designs/design_<?php echo $i; ?>.jpg" alt="<?php echo $titulosDesign[$i]; ?>" />
             </div>
             <div class="text_portifolio">
-              <p><?php echo $titulosPortifolio[$i]; ?></p>
+              <p><?php echo $titulosDesign[$i]; ?></p>
             </div>
           </div>
         <?php
         }
+
+        $titulosProgramacao = ['Regra de 3'];
+        $titulosLinks = ['regra_de_3'];
+        for ($i = 0; $i < count($titulosProgramacao); $i++) {
+        ?><a href="https://matheussantos.herokuapp.com/portfolio/<?php echo $titulosLinks[$i]; ?>/">
+            <div class="portifolio">
+              <div class="image_portifolio">
+                <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
+              </div>
+            </div>
+            <p><?php echo $titulosProgramacao[$i]; ?></p>
+            <p class="link">Clique Aqui !</p>
+          </a>
+        <?php
+        }
         ?>
-        <a href="https://matheussantos.herokuapp.com/portfolio/regra_de_3/" target="_blank">
-          <div class="portifolio">
-            <div class="image_portifolio">
-              <img src="/app/assets/imgs/programacao/0.png" alt="" />
-            </div>
-            <div>
-              <p>Regra de 3</p>
-              <p class="link">Clique Aqui !</p>
-            </div>
-          </div>
-        </a>
       </div>
+
+
+
       <a href="https://matheussantos.herokuapp.com/portfolio/"><button>Ver Mais</button></a>
     </div>
   </section>

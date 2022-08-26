@@ -6,7 +6,7 @@
       <div class="contreinnerDesign">
         <?php
         $titulosDesign = ['Design para o Dia das<br>Mães', 'Design feito de Estudo', 'Design para<br>Hamburgueria'];
-        for ($i = 0; $i <= 2; $i++) {
+        for ($i = 0; $i <= count($titulosDesign); $i++) {
         ?>
           <div class="projeto">
             <figure>
@@ -23,7 +23,7 @@
         <?php
         $titulosProgramacao = ['Regra de 3'];
         $titulosLinks = ['regra_de_3'];
-        for ($i = 0; $i < 1; $i++) {
+        for ($i = 0; $i < count($titulosProgramacao); $i++) {
         ?><a href="https://matheussantos.herokuapp.com/portfolio/<?php echo $titulosLinks[$i]; ?>/">
             <div class="projeto">
               <figure>
