@@ -26,17 +26,21 @@
         <?php
         }
         ?>
-        <a href="https://matheussantos.herokuapp.com/portfolio/regra_de_3/" target="_blank">
-          <div class="portifolio">
-            <div class="image_portifolio">
-              <img src="/app/assets/imgs/programacao/0.png" alt="" />
-            </div>
-            <div>
-              <p>Regra de 3</p>
-              <p class="link">Clique Aqui !</p>
-            </div>
-          </div>
-        </a>
+        <?php
+        $titulosProgramacao = ['Regra de 3'];
+        $titulosLinks = ['regra_de_3'];
+        for ($i = 0; $i < 1; $i++) {
+        ?><a href="https://matheussantos.herokuapp.com/portfolio/<?php echo $titulosLinks[$i]; ?>/">
+            <div class="projeto">
+              <figure>
+                <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
+              </figure>
+              <p><?php echo $titulosProgramacao[$i]; ?></p>
+              <p style="font-size:1rem; margin-top:5px;">Clique Aqui !</p>
+          </a>
+        <?php
+        }
+        ?>
       </div>
       <a href="https://matheussantos.herokuapp.com/portfolio/"><button>Ver Mais</button></a>
     </div>
