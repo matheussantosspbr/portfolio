@@ -6,6 +6,7 @@ $caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
 $url = $_SERVER["REQUEST_URI"];
 
 $url = explode('/', $url);
+array_shift($url);
 
 if (!empty($url[0])) {
 
