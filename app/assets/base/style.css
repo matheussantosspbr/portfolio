@@ -46,9 +46,6 @@ button {
 /* ===== Variaveis ===== */
 
 :root {
-  /*===== Tamanho dos Titulos=====*/
-  --titulo-h1: 1.87rem;
-  --titulo-h2: 1.25rem;
   /*Cores*/
   --cor-primaria: #00b8eb;
   --cor-segundaria: #2f3944;

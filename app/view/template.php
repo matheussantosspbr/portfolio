@@ -1,7 +1,7 @@
 <?php
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 $caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
-$caminhoScriptBase = __DIR__ . '/../../assets/script/js/style.css';
+$caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
 
 $url = $_SERVER["REQUEST_URI"];
 
