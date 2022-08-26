@@ -17,7 +17,7 @@
         ?>
           <div class="portifolio">
             <div class="image_portifolio">
-              <img src="/www.matheussantosdev.com/app/assets/imgs/designs/design_<?php echo $i; ?>.jpg" alt="<?php echo $titulosPortifolio[$i]; ?>" />
+              <img src="/app/assets/imgs/designs/design_<?php echo $i; ?>.jpg" alt="<?php echo $titulosPortifolio[$i]; ?>" />
             </div>
             <div class="text_portifolio">
               <p><?php echo $titulosPortifolio[$i]; ?></p>
