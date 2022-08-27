@@ -34,9 +34,9 @@
               <div class="image_portifolio">
                 <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
               </div>
+              <p><?php echo $titulosProgramacao[$i]; ?></p>
+              <p class="link">Clique Aqui !</p>
             </div>
-            <p><?php echo $titulosProgramacao[$i]; ?></p>
-            <p class="link">Clique Aqui !</p>
           </a>
         <?php
         }
