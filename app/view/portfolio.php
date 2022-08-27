@@ -6,7 +6,7 @@
       <div class="contreinnerDesign">
         <?php
         $titulosDesign = ['Design para o Dia das<br>Mães', 'Design feito de Estudo', 'Design para<br>Hamburgueria'];
-        for ($i = 0; $i <= count($titulosDesign); $i++) {
+        for ($i = 0; $i < count($titulosDesign); $i++) {
         ?>
           <div class="projeto">
             <figure>
