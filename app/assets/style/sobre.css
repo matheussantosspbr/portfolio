@@ -174,7 +174,7 @@
 
 .js,
 .js .subCard .circulo>svg>circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440*10) / 100);
+  stroke-dashoffset: calc(440 - (440*30) / 100);
   box-shadow: 0 0 10px 6px #F7DF1E;
   stroke: #F7DF1E;
 }
