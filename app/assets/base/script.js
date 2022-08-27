@@ -33,5 +33,10 @@ switch (tituloPag) {
     tituloPag = 'Regra de 3'
     break
 }
+
+String.prototype.capitalize = function () {
+  return this.charAt(0).toUpperCase() + this.substr(1)
+}
+
 tituloPag = tituloPag.capitalize()
 document.title = tituloPag
