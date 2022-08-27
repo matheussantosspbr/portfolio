@@ -8,7 +8,7 @@
       </div>
       <div id="links">
         <a href="https://matheussantos.herokuapp.com/">Web Site</a>
-        <a href="https://www.instagram.com/matheus_santos_oficial.br/">Instagram</a>
+        <a href="https://www.instagram.com/matheussantos.pro/">Instagram</a>
         <a href="https://www.facebook.com/profile.php?id=100031012607438">Facebook</a>
         <a href="https://www.linkedin.com/in/matheussantosspbr/">LinkedIn</a>
         <a href="https://github.com/matheussantosspbr">Github</a>
