@@ -6,7 +6,7 @@ $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
     <img src=<?php echo $caminhoLogo; ?> alt="logo" />
     <div class="menu">
       <ul>
-        <li><a href="https://matheussantos.herokuapp.com/">Inicio</a></li>
+        <li><a href="https://matheussantos.herokuapp.com/">Início</a></li>
         <li><a href="https://matheussantos.herokuapp.com/portfolio/">Portfólio</a></li>
         <li><a href="https://matheussantos.herokuapp.com/certificados/">Certificados</a></li>
         <li><a href="https://matheussantos.herokuapp.com/sobre/">Sobre</a></li>
