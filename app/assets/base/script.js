@@ -14,7 +14,7 @@ let titulo = window.location['pathname'].split('/')
 tituloPag = ''
 if (!(titulo[1] == '')) {
   if (titulo[2]) {
-    tituloPag = titulo[1]
+    tituloPag = titulo[2]
   } else {
     tituloPag = titulo[1]
   }
