@@ -22,6 +22,18 @@ if (!(titulo[1] == '')) {
   tituloPag = 'Matheus Santos - Início'
 }
 
+switch (tituloPag) {
+  case 'inicio':
+    tituloPag = 'Início'
+    break
+  case 'portfolio':
+    tituloPag = 'Portfólio'
+    break
+  case 'regra_de_3':
+    tituloPag = 'Regra de 3'
+    break
+}
+
 document.title = tituloPag
 console.log(tituloPag)
 console.log(titulo)
