@@ -2,7 +2,7 @@
   <section>
     <div class="contreinner">
       <div id="logo">
-        <img src="logo.png" alt="" />
+        <img src="/app/assets/imgs/logo/logo.png" alt="logo" />
         <h2>Matheus Santos</h2>
         <h4>Dev. Front-End</h4>
       </div>

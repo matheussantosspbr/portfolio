@@ -2,7 +2,7 @@
 
 #cabecalho {
   height: 30rem;
-  background-image: url('/www.matheussantosdev.com/app/assets/imgs/fundo_cabecalho.png');
+  background-image: url('/app/assets/imgs/fundo_cabecalho.png');
   background-size: 25rem;
   background-repeat: no-repeat;
   background-position-y: -15%;
