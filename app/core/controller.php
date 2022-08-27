@@ -7,7 +7,11 @@ class controller
   public function carregarTemplate($nomeView, $dadosModel = array())
   {
     $this->dados = $dadosModel;
-    require __DIR__ . '/../view/template.php';
+    if ($nomeView == 'links') {
+      require __DIR__ . '/../view/templateLinks.php';
+    } else {
+      require __DIR__ . '/../view/template.php';
+    }
   }
 
   public function carregarHeader()
