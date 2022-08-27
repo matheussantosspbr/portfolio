@@ -11,9 +11,16 @@ close.addEventListener('click', function () {
 })
 
 let titulo = window.location['pathname'].split('/')
-if(titulo[1] == ''){
-  document.title = 'Matheus Santos - Início'
-}else{
-  document.title = titulo[1]
+tituloPag = ''
+if (!(titulo[1] == '')) {
+  if (titulo[2]) {
+    tituloPag = titulo[1]
+  } else {
+    tituloPag = titulo[1]
+  }
+} else {
+  tituloPag = 'Matheus Santos - Início'
 }
+
+document.title = tituloPag
 console.log(titulo)
