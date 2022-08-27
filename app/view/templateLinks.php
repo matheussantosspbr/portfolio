@@ -56,7 +56,7 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   <meta name="msapplication-navbutton-color" content="#0b0f13" />
   <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
   <link rel="stylesheet" href=<?php echo $caminhoStyle; ?>>
-  <title></title>
+  <title>Links</title>
 </head>
 
 <body>
@@ -64,7 +64,6 @@ $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
   ?>
   <script src=<?php echo $caminhoScript; ?>></script>
-  <script src=<?php echo $caminhoScriptBase ?>></script>
 </body>
 
 </html>
