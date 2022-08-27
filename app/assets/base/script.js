@@ -23,4 +23,5 @@ if (!(titulo[1] == '')) {
 }
 
 document.title = tituloPag
+console.log(tituloPag)
 console.log(titulo)
