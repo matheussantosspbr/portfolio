@@ -18,11 +18,7 @@
       </div>
     </div>
   </section>
-</main>
-<footer>
-  <div class="contreinner">
-    <div class="text_footer">
-      <p>Feito com ♥ pelo Dev. Matheus Santos.<br />© 2022.</p>
-    </div>
+  <div class="text_footer">
+    <p>Feito com ♥ pelo Dev. Matheus Santos.<br />© 2022.</p>
   </div>
-</footer>
+</main>
