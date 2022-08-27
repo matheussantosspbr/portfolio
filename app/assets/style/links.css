@@ -17,7 +17,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  margin :0;
+  margin:0 !important;
 }
 
 section {
@@ -172,12 +172,11 @@ footer .contreinner {
   }
 
   footer {
-    margin-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: none;
-    box-shadow: none;
+    background-color: none !important;
+    box-shadow: none !important;
   }
 
   footer .contreinner {
