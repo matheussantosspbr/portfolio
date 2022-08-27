@@ -14,7 +14,7 @@
       ?>
         <div class="certificado">
           <div class="img_certificado">
-            <img src="/www.matheussantosdev.com/app/assets/imgs/certificados/<?php echo $i; ?>.png" alt="<?php echo $nomeCertificado[$i]; ?>" />
+            <img src="/app/assets/imgs/certificados/<?php echo $i; ?>.png" alt="<?php echo $nomeCertificado[$i]; ?>" />
           </div>
           <div class=" texto">
             <h3><?php echo $nomeCertificado[$i]; ?></h3>
