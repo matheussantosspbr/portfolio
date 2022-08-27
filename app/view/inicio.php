@@ -345,12 +345,12 @@
       </div>
       <form action="https://api.staticforms.xyz/submit" method="post" id="form">
         <input type="hidden" name="accessKey" value="7f43e03a-61ff-4a20-a647-ef65ef5fff00" required />
-        <input type="hidden" name="redirectTo" value="https://matheussantos.vercel.app/" />
+        <input type="hidden" name="redirectTo" value="https://matheussantos.herokuapp.com/" />
 
         <input id="nome" type="text" name="name" class="campo" placeholder="Digite seu Nome" required />
         <input id="email" type="email " name="email" class="campo" placeholder="Digite seu Melhor Email" required />
         <textarea id="msg" name="message" class="campo" placeholder="Digite sua Mensagem Aqui..." required></textarea>
-        <button>Enviar mensagem</button>
+        <button type="submit" value="Submit">Enviar mensagem</button>
       </form>
     </div>
   </section>
