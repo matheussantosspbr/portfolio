@@ -13,7 +13,7 @@ close.addEventListener('click', function () {
 let titulo = window.location['pathname'].split('/')
 tituloPag = ''
 if (!(titulo[1] == '')) {
-  if (titulo[2]) {
+  if (titulo[2] && !(titulo[2] != 'index')) {
     tituloPag = titulo[2]
   } else {
     tituloPag = titulo[1]
