@@ -33,7 +33,5 @@ switch (tituloPag) {
     tituloPag = 'Regra de 3'
     break
 }
-
+tituloPag = toUpperCase(tituloPag)
 document.title = tituloPag
-console.log(tituloPag)
-console.log(titulo)
