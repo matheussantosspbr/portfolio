@@ -4,6 +4,7 @@ let close = document.querySelector('.close')
 
 open.addEventListener('click', function () {
   document.querySelector('nav').classList.add('show')
+  document.querySelector('nav').classList.remove('closeShow')
 })
 
 close.addEventListener('click', function () {
