@@ -21,10 +21,10 @@
       <h3>Programação</h3>
       <div class="contreinnerProgramacao">
         <?php
-        $titulosProgramacao = ['Regra de 3'];
-        $titulosLinks = ['regra_de_3'];
+        $titulosProgramacao = ['Regra de 3', 'Sistema de Login'];
+        $links = ['https://matheussantos.herokuapp.com/portfolio/regra_de_3/', 'https://matheussantos-dev.herokuapp.com/'];
         for ($i = 0; $i < count($titulosProgramacao); $i++) {
-        ?><a href="https://matheussantos.herokuapp.com/portfolio/<?php echo $titulosLinks[$i]; ?>/">
+        ?><a href="<?php echo $links[$i]; ?>">
             <div class="projeto">
               <figure>
                 <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
