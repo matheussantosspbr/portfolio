@@ -184,6 +184,7 @@ nav.show .close {
 nav.show .menu {
   opacity: 1;
   visibility: visible;
+  animation: open-menu 1s;
 }
 
 .close {
@@ -197,6 +198,12 @@ nav.show .menu {
 .menu_close {
   fill: var(--body);
   width: 2rem;
+}
+
+@keyframes open-menu{
+  to{
+    transform: translateX(100%);
+  }
 }
 
 /* ===== MAIN & SECTION ===== */
