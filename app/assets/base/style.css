@@ -184,7 +184,7 @@ nav.show .close {
 nav.show .menu {
   opacity: 1;
   visibility: visible;
-  animation: open-menu 1s;
+  animation: open-menu 1s ease-in-out forwards;
 }
 
 .close {
