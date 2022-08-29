@@ -4,8 +4,6 @@ let close = document.querySelector('.close')
 
 open.addEventListener('click', function () {
   document.querySelector('nav').classList.add('show')
-  document.querySelector('.menu').style.animation =
-    'close-menu 0.5s ease-in-out forwards'
 })
 
 close.addEventListener('click', function () {
