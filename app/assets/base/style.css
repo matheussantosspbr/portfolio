@@ -179,12 +179,13 @@ nav.show .open {
 nav.show .close {
   opacity: 1;
   visibility: visible;
+  animation: open-menu 0.5s ease-in-out forwards;
 }
 
 nav.show .menu {
   opacity: 1;
   visibility: visible;
-  animation: open-menu 1s ease-in-out forwards;
+  animation: open-menu 0.5s ease-in-out forwards;
 }
 
 .close {
