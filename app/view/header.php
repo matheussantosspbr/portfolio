@@ -1,9 +1,8 @@
-<?php
-$caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
-?>
 <header id="header">
   <nav class="contreinner">
-    <img src=<?php echo $caminhoLogo; ?> alt="logo" />
+    <a href="https://matheussantos.herokuapp.com/">
+      <img src='/app/assets/logo/logo.png' alt="logo" />
+    </a>
     <div class="menu">
       <ul>
         <li><a href="https://matheussantos.herokuapp.com/">Início</a></li>
