@@ -175,7 +175,6 @@ header .contreinner img {
 nav.show .open {
   opacity: 0;
   visibility: hidden;
-  
 }
 
 nav.show .close {
@@ -186,6 +185,7 @@ nav.show .close {
 
 nav.closeShow .close {
   animation: close-menu 0.5s ease-in-out forwards;
+  animation-play-state: running;
 }
 
 nav.show .menu {
@@ -196,6 +196,7 @@ nav.show .menu {
 
 nav.closeShow .menu{
   animation: close-menu 0.5s ease-in-out forwards;
+  animation-play-state: running;
 }
 
 .close {
