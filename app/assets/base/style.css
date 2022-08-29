@@ -138,6 +138,8 @@ header .contreinner img {
   opacity: 0;
   visibility: hidden;
   box-shadow: -5px 0px 27px 15px var(--body);
+  animation: close-menu 0.5s ease-in-out forwards;
+  animation-play-state: paused;
 }
 
 .menu ul {
@@ -184,7 +186,6 @@ nav.show .close {
 }
 
 nav.closeShow .close {
-  animation: close-menu 0.5s ease-in-out forwards;
   animation-play-state: running;
 }
 
@@ -195,7 +196,6 @@ nav.show .menu {
 }
 
 nav.closeShow .menu{
-  animation: close-menu 0.5s ease-in-out forwards;
   animation-play-state: running;
 }
 
@@ -205,6 +205,8 @@ nav.closeShow .menu{
   opacity: 0;
   visibility: hidden;
   top: 5.25%;
+  animation: close-menu 0.5s ease-in-out forwards;
+  animation-play-state: paused;
 }
 
 .menu_close {
