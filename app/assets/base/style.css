@@ -203,18 +203,18 @@ nav.show .menu {
 
 @keyframes open-menu{
   from {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
   to{
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
 @keyframes close-menu{
   from {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   to{
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
 }
 
