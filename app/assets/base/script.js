@@ -4,7 +4,8 @@ let close = document.querySelector('.close')
 
 open.addEventListener('click', function () {
   document.querySelector('nav').classList.add('show')
-  document.querySelector('.menu').style.animationPlayState = 'paused'
+  document.querySelectorAll('nav.show .menu').style.animationPlayState =
+    'paused'
 })
 
 close.addEventListener('click', function () {
