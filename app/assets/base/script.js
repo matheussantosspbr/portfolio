@@ -8,8 +8,6 @@ open.addEventListener('click', function () {
 
 close.addEventListener('click', function () {
   document.querySelector('nav').classList.remove('show')
-  document.querySelector('.menu').style.animation =
-    'close-menu 0.5s ease-in-out forwards running'
 })
 
 let titulo = window.location['pathname'].split('/')
