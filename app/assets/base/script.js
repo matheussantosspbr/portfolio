@@ -4,12 +4,12 @@ let close = document.querySelector('.close')
 
 open.addEventListener('click', function () {
   document.querySelector('nav').classList.add('show')
-  document.querySelector('nav').classList.remove('closeShow')
+  document.querySelector('.menu').style.animationPlayState = 'paused'
 })
 
 close.addEventListener('click', function () {
   document.querySelector('nav').classList.remove('show')
-  document.querySelector('nav').classList.add('closeShow')
+  document.querySelector('.menu').style.animationPlayState = 'running'
 })
 
 let titulo = window.location['pathname'].split('/')
