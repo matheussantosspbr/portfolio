@@ -24,13 +24,15 @@
         $titulosProgramacao = ['Regra de 3', 'Sistema de Login'];
         $links = ['https://matheussantos.herokuapp.com/portfolio/regra_de_3/', 'https://matheussantos-dev.herokuapp.com/'];
         for ($i = 0; $i < count($titulosProgramacao); $i++) {
-        ?><a href="<?php echo $links[$i]; ?>">
+        ?>
+          <a href="<?php echo $links[$i]; ?>">
             <div class="projeto">
               <figure>
                 <img src="/app/assets/imgs/programacao/<?php echo $i; ?>.png" alt="<?php echo $titulosProgramacao[$i]; ?>" />
               </figure>
               <p><?php echo $titulosProgramacao[$i]; ?></p>
               <p style="font-size:1rem; margin-top:5px;">Clique Aqui !</p>
+            </div>
           </a>
         <?php
         }
