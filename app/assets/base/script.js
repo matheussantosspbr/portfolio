@@ -7,8 +7,8 @@ open.addEventListener('click', function () {
 })
 
 close.addEventListener('click', function () {
-  document.querySelector('nav').classList.remove('show')
   animation()
+  document.querySelector('nav').classList.remove('show')
 })
 
 function animation() {
@@ -16,7 +16,12 @@ function animation() {
     document.querySelector('.menu').style.animation =
       'close-menu 0.5s ease-in-out forwards;'
     document.querySelector('.close').style.animation =
-      'close-menu 0.5s ease-in-out forwards;'
+      'close-menu 0.5s ease-in-out forwards'
+  } else {
+    document.querySelector('.close').style.animation =
+      'open-menu 0.5s ease-in-out forwards'
+    document.querySelector('.menu').style.animation =
+      'open-menu 0.5s ease-in-out forwards'
   }
 }
 
