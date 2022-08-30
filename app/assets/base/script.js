@@ -2,28 +2,12 @@ let open = document.querySelector('.open')
 let close = document.querySelector('.close')
 
 open.addEventListener('click', function () {
-  animation()
   document.querySelector('nav').classList.add('show')
 })
 
 close.addEventListener('click', function () {
-  animation()
   document.querySelector('nav').classList.remove('show')
 })
-
-function animation() {
-  if (document.querySelector('nav').classList[1]) {
-    document.querySelector('.menu').style.animation =
-      'close-menu 0.5s ease-in-out forwards;'
-    document.querySelector('.close').style.animation =
-      'close-menu 0.5s ease-in-out forwards'
-  } else {
-    document.querySelector('.close').style.animation =
-      'open-menu 0.5s ease-in-out forwards'
-    document.querySelector('.menu').style.animation =
-      'open-menu 0.5s ease-in-out forwards'
-  }
-}
 
 let titulo = window.location['pathname'].split('/')
 tituloPag = ''

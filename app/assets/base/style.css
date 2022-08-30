@@ -180,15 +180,14 @@ nav.show .open {
 nav.show .close {
   opacity: 1;
   visibility: visible;
+  animation: open-menu 0.5s ease-in-out forwards;
 }
-
-
 
 nav.show .menu {
   opacity: 1;
   visibility: visible;
+  animation: open-menu 0.5s ease-in-out forwards;
 }
-
 
 .close {
   position: fixed;
@@ -196,8 +195,6 @@ nav.show .menu {
   opacity: 0;
   visibility: hidden;
   top: 5.25%;
-  animation: close-menu 0.5s ease-in-out forwards;
-  animation-play-state: paused;
 }
 
 .menu_close {
@@ -211,14 +208,6 @@ nav.show .menu {
   }
   to{
     transform: translateX(0%);
-  }
-}
-@keyframes close-menu{
-  from {
-    transform: translateX(0%);
-  }
-  to{
-    transform: translateX(100%);
   }
 }
 
