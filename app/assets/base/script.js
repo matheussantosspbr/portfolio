@@ -1,16 +1,22 @@
 let open = document.querySelector('.open')
-
 let close = document.querySelector('.close')
 
 open.addEventListener('click', function () {
   document.querySelector('nav').classList.add('show')
-  document.querySelector('nav').classList.remove('closeShow')
+  animation()
 })
 
 close.addEventListener('click', function () {
   document.querySelector('nav').classList.remove('show')
-  document.querySelector('nav').classList.add('closeShow')
+  animation()
 })
+
+function animation() {
+  if (document.querySelector('nav').classList[1]) {
+    document.querySelector('.menu').style.animation =
+      'close-menu 0.5s ease-in-out forwards;'
+  }
+}
 
 let titulo = window.location['pathname'].split('/')
 tituloPag = ''
