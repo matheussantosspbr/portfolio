@@ -15,6 +15,8 @@ function animation() {
   if (document.querySelector('nav').classList[1]) {
     document.querySelector('.menu').style.animation =
       'close-menu 0.5s ease-in-out forwards;'
+    document.querySelector('.close').style.animation =
+      'close-menu 0.5s ease-in-out forwards;'
   }
 }
 
