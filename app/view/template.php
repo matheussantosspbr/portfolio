@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../config/config.php';
+require __DIR__ . '/../../config/config.php';
 
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 $caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
