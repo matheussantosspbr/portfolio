@@ -60,7 +60,7 @@
         </div>
         <div>
           <p>
-            Olá, Meu nome é Matheus Santos, tenho 17 anos e Moro na cidade
+            Olá, Meu nome é Matheus Santos, tenho <?php echo $years ?> anos e Moro na cidade
             de Mauá, no sudeste de São Paulo.
             <br />
             Ja fiz curso de <span>Auxiliar de Escritório</span> pela Senac,
