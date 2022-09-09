@@ -1,5 +1,6 @@
 <?php
-require_once('/app/config/config.php');
+require '/app/config/config.php';
+
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 $caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
 $caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
