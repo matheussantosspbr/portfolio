@@ -65,4 +65,6 @@ function calculaIdade(dataNasc) {
   }
   return idade
 }
-console.log(calculaIdade('03/09/2004'))
+
+let idade = calculaIdade('03/09/2004')
+console.log(idade)
