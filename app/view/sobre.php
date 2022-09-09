@@ -17,27 +17,27 @@
         <div>
           <p>
             Olá, Meu nome é Matheus Santos, tenho
-          <p id="idade"></p> anos e Moro na cidade
-          de Mauá, no sudeste de São Paulo.
-          <br />
-          Amo a área de tecnologia, e por isso, de diversos tipos de
-          serviços dentro desta incrivel área, optei em começar minha
-          Graduação de
-          <span>Análise e Desenvolvimento de Sistemas</span> em fevereiro
-          de 2022.
-          <br />
-          Além disso, estou estudando aos poucos,
-          <span>Design Gráfico</span>, com o curso
-          <span>Design de Qualidade</span> da DDQ Ensinos, e o curso
-          <span>DG Essential</span>
-          do Thiago Rodrigues.
-          <br />
-          No momento estou buscando me aprofundar em
-          <span>JavaScript e PHP</span>, mas também, estou estudando
-          <span>HTML5 e CSS3.</span> Pretendo mais para frente aprender e
-          me aprofundar mais sobre
-          <span>Java, Git, C, C#, Python, React, JQuery e TypeScript.
-          </span>
+            <span id="idade"></span> anos e Moro na cidade
+            de Mauá, no sudeste de São Paulo.
+            <br />
+            Amo a área de tecnologia, e por isso, de diversos tipos de
+            serviços dentro desta incrivel área, optei em começar minha
+            Graduação de
+            <span>Análise e Desenvolvimento de Sistemas</span> em fevereiro
+            de 2022.
+            <br />
+            Além disso, estou estudando aos poucos,
+            <span>Design Gráfico</span>, com o curso
+            <span>Design de Qualidade</span> da DDQ Ensinos, e o curso
+            <span>DG Essential</span>
+            do Thiago Rodrigues.
+            <br />
+            No momento estou buscando me aprofundar em
+            <span>JavaScript e PHP</span>, mas também, estou estudando
+            <span>HTML5 e CSS3.</span> Pretendo mais para frente aprender e
+            me aprofundar mais sobre
+            <span>Java, Git, C, C#, Python, React, JQuery e TypeScript.
+            </span>
           </p>
         </div>
       </div>
