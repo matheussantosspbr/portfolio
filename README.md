@@ -1,5 +1,13 @@
-## 🚨EM CONSTRUÇÃO 🚨
+Este Portfólio foi construido com as Segintes Linguens:
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+  <li>PHP</li>
+</ul>
 
-Portufólio Atualizado ultilizando as tecnologias HTML, CSS, JS e PHP.
-<br>
-Ultilizando Também o conceito de URL Amigável e a estrutura MVC com PHP.
+Também Foi Ultifilado
+<ul>
+  <li>Padrão de Arquitetura MVC</li>
+  <li>URL Amigável</li>
+</ul>
