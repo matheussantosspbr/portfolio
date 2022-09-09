@@ -16,7 +16,12 @@
         </div>
         <div>
           <p>
+<<<<<<< HEAD
             Olá, Meu nome é Matheus Santos, tenho 18 anos e Moro na cidade
+=======
+            Olá, Meu nome é Matheus Santos, tenho
+            <span id="idade"></span> anos e Moro na cidade
+>>>>>>> staging
             de Mauá, no sudeste de São Paulo.
             <br />
             Amo a área de tecnologia, e por isso, de diversos tipos de

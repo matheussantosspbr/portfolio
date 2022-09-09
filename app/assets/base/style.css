@@ -20,6 +20,10 @@ span {
   background: var(--cor-primaria);
   color: var(--body);
 }
+#idade {
+  background: transparent;
+  color: var(--letras);
+}
 
 h1 {
   font-size: 30px;
