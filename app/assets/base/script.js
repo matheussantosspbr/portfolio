@@ -1,3 +1,4 @@
+/* ================ MENU ================== */
 let open = document.querySelector('.open')
 let close = document.querySelector('.close')
 
@@ -8,6 +9,8 @@ open.addEventListener('click', function () {
 close.addEventListener('click', function () {
   document.querySelector('nav').classList.remove('show')
 })
+
+/* ===================== TITULO DA PAGINA ====================*/
 
 let titulo = window.location['pathname'].split('/')
 tituloPag = ''
@@ -41,6 +44,7 @@ tituloPag = tituloPag.capitalize()
 document.title = tituloPag
 
 /* ============ Atualização da minha idade altomaticamente =============  */
+let pIdade = document.querySelector('#idade')
 
 function calculaIdade(dataNasc) {
   var dataAtual = new Date()
@@ -65,6 +69,6 @@ function calculaIdade(dataNasc) {
   }
   return idade
 }
-
 let idade = calculaIdade('03/09/2004')
-console.log(idade)
+
+pIdade.innerHTML = idade

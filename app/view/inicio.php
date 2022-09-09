@@ -60,17 +60,18 @@
         </div>
         <div>
           <p>
-            Olá, Meu nome é Matheus Santos, tenho <?php echo $years; ?> anos e Moro na cidade
-            de Mauá, no sudeste de São Paulo.
-            <br />
-            Ja fiz curso de <span>Auxiliar de Escritório</span> pela Senac,
-            Já fiz curso de <span>Inglês</span> pela Tibtis, entre outros
-            cursos.
-            <br />
-            Amo a área de tecnologia, e por isso, de diversos tipos de
-            serviços dentro dessa área, optei em começar minha Graduação de
-            <span>Análise e Desenvolvimento de Sistemas</span> em fevereiro
-            de 2022.
+            Olá, Meu nome é Matheus Santos, tenho
+          <p id="idade"></p> anos e Moro na cidade
+          de Mauá, no sudeste de São Paulo.
+          <br />
+          Ja fiz curso de <span>Auxiliar de Escritório</span> pela Senac,
+          Já fiz curso de <span>Inglês</span> pela Tibtis, entre outros
+          cursos.
+          <br />
+          Amo a área de tecnologia, e por isso, de diversos tipos de
+          serviços dentro dessa área, optei em começar minha Graduação de
+          <span>Análise e Desenvolvimento de Sistemas</span> em fevereiro
+          de 2022.
           </p>
 
           <a href="https://matheussantos.herokuapp.com/sobre/"><button>Ver Mais</button></a>
