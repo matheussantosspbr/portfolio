@@ -1,6 +1,4 @@
 <?php
-require __DIR__ . '/../../config/config.php';
-
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 $caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
 $caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
@@ -45,6 +43,13 @@ $titulo = $style;
 
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
+
+/* ===================== Calcular a diferença da data atual com a minha data de nascimento para ter minha idade ========================*/
+
+$data_inicio = new DateTime("2004-09-02");
+$data_fim = new DateTime();
+$dateInterval = $data_inicio->diff($data_fim);
+$years = $dateInterval->y;
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
