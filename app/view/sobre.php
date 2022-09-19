@@ -33,11 +33,7 @@
             do Thiago Rodrigues.
             <br />
             No momento estou buscando me aprofundar em
-            <span>JavaScript e PHP</span>, mas também, estou estudando
-            <span>HTML5 e CSS3.</span> Pretendo mais para frente aprender e
-            me aprofundar mais sobre
-            <span>Java, Git, C, C#, Python, React, JQuery e TypeScript.
-            </span>
+            <span>PHP e Laravel.</span> Pretendo daqui um tempo aprender mais sobre <span>Git, Python, React e TypeScript.</span>
           </p>
         </div>
       </div>
