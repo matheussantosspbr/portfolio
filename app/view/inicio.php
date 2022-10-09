@@ -2,7 +2,7 @@
   <section id="cabecalho">
     <div class="contreinner">
       <h1>Matheus Santos</h1>
-      <h2>Dev. Front-End</h2>
+      <h2>Dev. Full-Stack</h2>
     </div>
   </section>
   <div class="divider_1"></div>
