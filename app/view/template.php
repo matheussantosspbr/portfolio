@@ -35,7 +35,7 @@ $years = $dateInterval->y;
   <link rel="shortcut icon" href=<?php echo $caminhoLogo; ?> />
   <link rel="stylesheet" href=<?php echo $caminhoStyleBase; ?>>
   <link rel="stylesheet" href=<?php echo $caminhoStyle; ?>>
-  <title></title>
+  <title><?php echo $titulo; ?></title>
 </head>
 
 <body>
