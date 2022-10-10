@@ -1,8 +1,5 @@
 <?php
-$caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
-$caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
-$caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
-
+/*========================= Styles e Scripts==================*/
 if ($nomeView == 'pageNotFound') {
   $titulo = 'Page Not Found';
 } else if ($nomeView == 'inicio') {
@@ -17,8 +14,16 @@ $style = $nomeView;
 $script = $nomeView;
 $titulo = ucwords($titulo);
 
+$caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
+$caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
+$caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
+
+/* =========================== Config =========================== */
+
+$config = new Config();
+$textoPagInicial = $config->config('textoPagInicial');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
