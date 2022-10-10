@@ -3,43 +3,14 @@ $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 $caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
 $caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
 
-$url = $_SERVER["REQUEST_URI"];
+$style = $nomeView;
+$script = $nomeView;
 
-$url = explode('/', $url);
-array_shift($url);
-
-if (!empty($url[0])) {
-
-  $style = $url[0];
-  $styleRes = $url[0];
-  array_shift($url);
-
-  if (!empty($url[0])) {
-    $style = $url[0];
-
-    if (!empty($url[0])) {
-      $style = $url[0];
-    }
-
-    array_shift($url);
-  }
+if ($nomeView == 'pageNotFound') {
+  $titulo = 'Page Not Found';
 } else {
-  $style = 'inicio';
+  $titulo = $nomeView;
 }
-
-if ($style == 'index') {
-  $style = $styleRes;
-}
-
-$arq = $style . ".css";
-$caminho = "/../assets/style/$arq";
-
-if (!file_exists(__DIR__ . $caminho)) {
-  $style = 'pageNotFound';
-}
-
-$script = $style;
-$titulo = $style;
 
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
