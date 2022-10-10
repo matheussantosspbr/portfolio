@@ -8,9 +8,15 @@ $script = $nomeView;
 
 if ($nomeView == 'pageNotFound') {
   $titulo = 'Page Not Found';
+} else if ($nomeView == 'inicio') {
+  $titulo = 'Início';
+} else if ($nomeView == 'portfolio') {
+  $titulo = 'Portfólio';
 } else {
   $titulo = $nomeView;
 }
+
+$titulo = ucwords($titulo);
 
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
