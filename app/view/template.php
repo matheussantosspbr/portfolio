@@ -3,9 +3,6 @@ $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
 $caminhoStyleBase = __DIR__ . '/../../assets/base/style.css';
 $caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
 
-$style = $nomeView;
-$script = $nomeView;
-
 if ($nomeView == 'pageNotFound') {
   $titulo = 'Page Not Found';
 } else if ($nomeView == 'inicio') {
@@ -16,6 +13,8 @@ if ($nomeView == 'pageNotFound') {
   $titulo = $nomeView;
 }
 
+$style = $nomeView;
+$script = $nomeView;
 $titulo = ucwords($titulo);
 
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
