@@ -27,8 +27,6 @@ class Config
     de 2022.
     ";
 
-    $textoSobre = "
-    ";
     return $$v;
   }
 }

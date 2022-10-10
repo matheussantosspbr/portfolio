@@ -60,7 +60,7 @@
         </div>
         <div>
           <p>
-            <?php echo $textoPagInicial ?>
+            <?php echo $textoPagInicial; ?>
           </p>
           <a href="https://matheussantos.herokuapp.com/sobre/"><button>Ver Mais</button></a>
         </div>
