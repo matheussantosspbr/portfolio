@@ -2,7 +2,7 @@
   <section id="cabecalho">
     <div class="contreinner">
       <h1>Matheus Santos</h1>
-      <h2>Dev. Full-Stack</h2>
+      <h2><?php print_r($dadosModel["areaAtuaçao"]); ?></h2>
     </div>
   </section>
   <div class="divider_1"></div>

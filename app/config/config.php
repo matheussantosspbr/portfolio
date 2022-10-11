@@ -13,6 +13,8 @@ class Config
 
     /* ===================== Textos ========================*/
 
+    $areaAtuaçao = 'Dev. Full-Stack';
+
     $textoPagInicial = "
     Olá, Meu nome é Matheus Santos, tenho $idade anos e Moro na cidade
     de Mauá, no sudeste de São Paulo.

@@ -20,10 +20,6 @@ $caminhoScriptBase = __DIR__ . '/../../assets/base/script.js';
 $caminhoScript = __DIR__ . '/../../assets/script/js/' . $script . '.js';
 $caminhoStyle = __DIR__ . '/../../assets/style/' . $style . '.css';
 
-/* =========================== Config =========================== */
-
-$config = new Config();
-$textoPagInicial = $config->config('textoPagInicial');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -44,9 +40,7 @@ $textoPagInicial = $config->config('textoPagInicial');
 <body>
   <?php
   $this->carregarHeader();
-  $this->carregarViewNoTemplate($nomeView, $dadosModel = [
-    "textoPagInicial" => $textoPagInicial
-  ]);
+  $this->carregarViewNoTemplate($nomeView, $dadosModel);
   $this->carregarFooter();
   ?>
   <script src=<?php echo $caminhoScript; ?>></script>

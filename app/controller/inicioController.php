@@ -4,13 +4,14 @@ class inicioController extends controller
 
   public function index()
   {
-    /*
-    Chamar um Model
-    Chamar View
-    $u = new usuario();
-    $dados = $u->getDadosUsuario();*/
-    $dados['nome'] = 'Matheus';
-    $dados['idade'] = 17;
-    $this->carregarTemplate('inicio');
+    /* =========================== Config =========================== */
+
+    $config = new Config();
+    $textoPagInicial = $config->config('textoPagInicial');
+    $areaAtuaçao = $config->config('areaAtuaçao');
+
+    $dados['textoPagInicial'] = $textoPagInicial;
+    $dados['areaAtuaçao'] = $areaAtuaçao;
+    $this->carregarTemplate('inicio', $dados);
   }
 }
