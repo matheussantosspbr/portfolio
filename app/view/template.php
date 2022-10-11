@@ -43,6 +43,7 @@ $textoPagInicial = $config->config('textoPagInicial');
 
 <body>
   <?php
+  echo $textoPagInicial;
   $this->carregarHeader();
   $this->carregarViewNoTemplate($nomeView, $dadosModel);
   $this->carregarFooter();
