@@ -13,7 +13,7 @@ class Config
 
     /* ===================== Textos ========================*/
 
-    $areaAtuaçao = 'Dev. Mobile';
+    $areaAtuaçao = 'Dev. Full-Stack';
 
     $textoPagInicial = "
     Olá, Meu nome é Matheus Santos, tenho $idade anos e Moro na cidade
