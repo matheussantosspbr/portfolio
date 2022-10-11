@@ -1,10 +1,13 @@
+<?php
+extract($dadosModel);
+?>
 <main>
   <section>
     <div class="contreinner">
       <div id="logo">
         <img src="/app/assets/logo/logo.png" alt="logo" />
         <h2>Matheus Santos</h2>
-        <h4>Dev. Full-Stack</h4>
+        <h4><?php print_r($areaAtuaçao); ?></h4>
       </div>
       <div id="links">
         <a href="https://matheussantos.herokuapp.com/">Web Site</a>

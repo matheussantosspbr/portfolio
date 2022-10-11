@@ -4,6 +4,13 @@ class linksController extends controller
 
   public function index()
   {
-    $this->carregarTemplate('links');
+    /* =========================== Config =========================== */
+
+    $config = new Config();
+    $areaAtuaçao = $config->config('areaAtuaçao');
+
+    $dados['areaAtuaçao'] = $areaAtuaçao;
+
+    $this->carregarTemplate('links', $dados);
   }
 }
