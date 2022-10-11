@@ -4,6 +4,13 @@ class sobreController extends controller
 
   public function index()
   {
-    $this->carregarTemplate('sobre');
+    /* =========================== Config =========================== */
+
+    $config = new Config();
+    $textoSobre = $config->config('textoSobre');
+
+    $dados['textoSobre'] = $textoSobre;
+
+    $this->carregarTemplate('sobre', $dados);
   }
 }
