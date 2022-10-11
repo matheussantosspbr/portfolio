@@ -45,7 +45,7 @@ $textoPagInicial = $config->config('textoPagInicial');
   <?php
   $this->carregarHeader();
   $this->carregarViewNoTemplate($nomeView, $dadosModel = [
-    $textoPagInicial
+    "textoPagInicial" => $textoPagInicial
   ]);
   $this->carregarFooter();
   ?>

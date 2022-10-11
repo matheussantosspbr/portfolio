@@ -60,7 +60,7 @@
         </div>
         <div>
           <p>
-            <?php print_r($dadosModel); ?>
+            <?php print_r($dadosModel["textoPagInicial"]); ?>
           </p>
           <a href="https://matheussantos.herokuapp.com/sobre/"><button>Ver Mais</button></a>
         </div>
