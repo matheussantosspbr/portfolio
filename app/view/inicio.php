@@ -1,8 +1,11 @@
+<?php
+extract($dadosModel);
+?>
 <main>
   <section id="cabecalho">
     <div class="contreinner">
       <h1>Matheus Santos</h1>
-      <h2><?php print_r($dadosModel["areaAtuaçao"]); ?></h2>
+      <h2><?php print_r($areaAtuaçao); ?></h2>
     </div>
   </section>
   <div class="divider_1"></div>
@@ -60,7 +63,7 @@
         </div>
         <div>
           <p>
-            <?php print_r($dadosModel["textoPagInicial"]); ?>
+            <?php print_r($textoPagInicial); ?>
           </p>
           <a href="https://matheussantos.herokuapp.com/sobre/"><button>Ver Mais</button></a>
         </div>
