@@ -6,14 +6,16 @@ if ($nomeView == 'pageNotFound') {
   $titulo = 'Início';
 } else if ($nomeView == 'portfolio') {
   $titulo = 'Portfólio';
-} else if ($nomeView == 'regra_de_3') {
+} else if ($nomeView == 'regraDe3') {
   $titulo = 'Regras de 3';
+  $style = 'regra_de_3';
+  $script = 'regra_de_3';
 } else {
   $titulo = $nomeView;
+  $style = $nomeView;
+  $script = $nomeView;
 }
 
-$style = $nomeView;
-$script = $nomeView;
 $titulo = ucwords($titulo);
 
 $caminhoLogo = __DIR__ . '/../../assets/logo/logo.png';
