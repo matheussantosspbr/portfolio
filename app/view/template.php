@@ -2,10 +2,16 @@
 /*========================= Styles e Scripts==================*/
 if ($nomeView == 'pageNotFound') {
   $titulo = 'Page Not Found';
+  $style = $nomeView;
+  $script = $nomeView;
 } else if ($nomeView == 'inicio') {
   $titulo = 'Início';
+  $style = $nomeView;
+  $script = $nomeView;
 } else if ($nomeView == 'portfolio') {
   $titulo = 'Portfólio';
+  $style = $nomeView;
+  $script = $nomeView;
 } else if ($nomeView == 'regraDe3') {
   $titulo = 'Regras de 3';
   $style = 'regra_de_3';
