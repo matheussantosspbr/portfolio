@@ -6,6 +6,8 @@ if ($nomeView == 'pageNotFound') {
   $titulo = 'Início';
 } else if ($nomeView == 'portfolio') {
   $titulo = 'Portfólio';
+} else if ($nomeView == 'regra_de_3') {
+  $titulo = 'Regras de 3';
 } else {
   $titulo = $nomeView;
 }
