@@ -20,10 +20,6 @@ span {
   background: var(--cor-primaria);
   color: var(--body);
 }
-#idade {
-  background: transparent;
-  color: var(--letras);
-}
 
 h1 {
   font-size: 30px;
@@ -51,7 +47,8 @@ button {
 
 :root {
   /*Cores*/
-  --cor-primaria: #00b8eb;
+/*   --cor-primaria: #00b8eb; */
+  --cor-primaria: #FF6801;
   --cor-segundaria: #2f3944;
   --pleacehouder: #ffffff91;
   --footer: #080b0e;
