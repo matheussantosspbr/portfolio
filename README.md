@@ -1,4 +1,4 @@
-Este Portfólio foi construido com as Segintes Linguens:
+Este Portfólio foi construido com as Seguintes Linguagens:
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -6,7 +6,7 @@ Este Portfólio foi construido com as Segintes Linguens:
   <li>PHP</li>
 </ul>
 
-Também Foi Ultifilado
+Também Foi Ultilizado
 <ul>
   <li>Padrão de Arquitetura MVC</li>
   <li>URL Amigável</li>
