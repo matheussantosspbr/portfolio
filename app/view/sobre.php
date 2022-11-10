@@ -287,13 +287,13 @@ extract($dadosModel);
   <section id="portifolio">
     <h2>Portifólio</h2>
     <div class="contreinner"></div>
-    <a href="https://matheussantos.herokuapp.com/portfolio/"><button>Clique Aqui</button></a>
+    <a href="<?php print_r("$URL_BASE/portfolio/"); ?>"><button>Clique Aqui</button></a>
   </section>
   <div class="divider_1"></div>
   <section id="portifolio">
     <h2>Certificados</h2>
     <div class="contreinner"></div>
-    <a href="https://matheussantos.herokuapp.com/certificados/"><button>Clique Aqui</button></a>
+    <a href="<?php print_r("$URL_BASE/certificados/"); ?>"><button>Clique Aqui</button></a>
   </section>
   <div class="divider_2"></div>
   <section id="contato">
@@ -303,7 +303,7 @@ extract($dadosModel);
       </div>
       <form action="https://api.staticforms.xyz/submit" method="post" id="form">
         <input type="hidden" name="accessKey" value="7f43e03a-61ff-4a20-a647-ef65ef5fff00" required />
-        <input type="hidden" name="redirectTo" value="https://matheussantos.herokuapp.com/" />
+        <input type="hidden" name="redirectTo" value="<?php print_r("$URL_BASE/certificados/"); ?>" />
 
         <input id="nome" type="text" name="name" class="campo" placeholder="Digite seu Nome" required />
         <input id="email" type="email " name="email" class="campo" placeholder="Digite seu Melhor Email" required />

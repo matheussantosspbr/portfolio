@@ -10,7 +10,7 @@ extract($dadosModel);
         <h4><?php print_r($areaAtuaçao); ?></h4>
       </div>
       <div id="links">
-        <a href="https://matheussantos.herokuapp.com/">Web Site</a>
+        <a href="<?php print_r("$URL_BASE"); ?>">Web Site</a>
         <a href="https://www.instagram.com/matheussantos.pro/">Instagram</a>
         <a href="https://www.facebook.com/profile.php?id=100031012607438">Facebook</a>
         <a href="https://api.whatsapp.com/send?phone=5511953109028">WhatsApp</a>

@@ -1,3 +1,6 @@
+<?php
+extract($dadosModel);
+?>
 <main>
   <section id="portifolio">
     <h2>Portfólio</h2>
@@ -22,7 +25,7 @@
       <div class="contreinnerProgramacao">
         <?php
         $titulosProgramacao = ['Regra de 3', 'Sistema de Login'];
-        $links = ['https://matheussantos.herokuapp.com/portfolio/regra_de_3/', 'https://matheussantos-dev.herokuapp.com/'];
+        $links = ["$URL_BASE/portfolio/regra_de_3/", 'https://matheussantos-dev.herokuapp.com/'];
         for ($i = 0; $i < count($titulosProgramacao); $i++) {
         ?>
           <a href="<?php echo $links[$i]; ?>">

@@ -30,7 +30,7 @@ extract($dadosModel);
         }
 
         $titulosProgramacao = ['Regra de 3', 'Sistema de Login'];
-        $links = ['https://matheussantos.herokuapp.com/portfolio/regra_de_3/', 'https://matheussantos-dev.herokuapp.com/'];
+        $links = ["$URL_BASE/portfolio/regra_de_3/", 'https://matheussantos-dev.herokuapp.com/'];
         for ($i = 0; $i < count($titulosProgramacao); $i++) {
         ?><a href="<?php echo $links[$i]; ?>">
             <div class="portifolio">
@@ -48,7 +48,7 @@ extract($dadosModel);
 
 
 
-      <a href="https://matheussantos.herokuapp.com/portfolio/"><button>Ver Mais</button></a>
+      <a href="<?php print_r("$URL_BASE/portfolio/"); ?>"><button>Ver Mais</button></a>
     </div>
   </section>
   <div class="divider_2"></div>
@@ -65,7 +65,7 @@ extract($dadosModel);
           <p>
             <?php print_r($textoPagInicial); ?>
           </p>
-          <a href="https://matheussantos.herokuapp.com/sobre/"><button>Ver Mais</button></a>
+          <a href="<?php print_r("$URL_BASE/sobre/"); ?>"><button>Ver Mais</button></a>
         </div>
       </div>
     </div>
@@ -336,7 +336,7 @@ extract($dadosModel);
       </div>
       <form action="https://api.staticforms.xyz/submit" method="post" id="form">
         <input type="hidden" name="accessKey" value="7f43e03a-61ff-4a20-a647-ef65ef5fff00" required />
-        <input type="hidden" name="redirectTo" value="https://matheussantos.herokuapp.com/" />
+        <input type="hidden" name="redirectTo" value="<?php print_r("$URL_BASE"); ?>" />
 
         <input id="nome" type="text" name="name" class="campo" placeholder="Digite seu Nome" required />
         <input id="email" type="email " name="email" class="campo" placeholder="Digite seu Melhor Email" required />
