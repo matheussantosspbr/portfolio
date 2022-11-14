@@ -48,7 +48,7 @@ extract($dadosModel);
 
 
 
-      <a href="<?php print_r("$URL_BASE/portfolio/"); ?>"><button>Ver Mais</button></a>
+      <a href="<?php echo "$URL_BASE/portfolio"; ?>"><button>Ver Mais</button></a>
     </div>
   </section>
   <div class="divider_2"></div>
@@ -336,7 +336,7 @@ extract($dadosModel);
       </div>
       <form action="https://api.staticforms.xyz/submit" method="post" id="form">
         <input type="hidden" name="accessKey" value="7f43e03a-61ff-4a20-a647-ef65ef5fff00" required />
-        <input type="hidden" name="redirectTo" value="<?php print_r("$URL_BASE"); ?>" />
+        <input type="hidden" name="redirectTo" value="<?php echo $URL_BASE; ?>" />
 
         <input id="nome" type="text" name="name" class="campo" placeholder="Digite seu Nome" required />
         <input id="email" type="email " name="email" class="campo" placeholder="Digite seu Melhor Email" required />
