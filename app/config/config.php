@@ -6,7 +6,7 @@ class Config
   {
     /* ===================== LINKS ========================*/ 
 
-    $URL_BASE = 'https://matheussantostestes.herokuapp.com';
+    $URL_BASE = 'https://matheussantostestes.herokuapp.com/teste';
 
     /* ===================== IDADE ========================*/
 
